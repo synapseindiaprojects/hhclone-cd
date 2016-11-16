@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Hub Map</name>
+    <author>Richard Paredes</author>
+    <version>1.0.0</version>
+    <description>Hub Maps</description>
+    <files>
+        <filename>mod_hubmap.xml</filename>
+        <filename module="mod_hubmap">mod_hubmap.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/images/clusterTest2.png</filename>
+        <filename>tmpl/images/markerHH.png</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/js/mapData.js</filename>
+        <filename>tmpl/css/mapStyle.css</filename>
+        <filename>tmpl/css/mediaqueries.css</filename>
+    </files>
+    <config>
+		   <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    default= ""
+                    label = "Module Class"
+                    description = "Add a CSS class to this module">
+                </field>
+            </fieldset>
+            <fieldset name="advanced">
+            </fieldset>
+        </fields>
+    </config>
+</extension>

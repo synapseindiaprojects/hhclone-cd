@@ -1,0 +1,293 @@
+html, body {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.unit {
+    float: left;
+    min-height: 1px;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    cursor: hand;
+    cursor: pointer;
+    color: #2a9bc7;
+    text-decoration: none;
+}
+
+a.unlink:link, a.unlink:visited {
+    color: #555;
+}
+
+a:visited {
+    color: #2a9bc7;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+.bold {
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.big {
+    font-size: 18px;
+}
+
+.size1of7 {
+    width:14.28571%
+}
+
+.size2of7 {
+    width:28.57142%
+}
+
+.size3of7{
+    width:42.85713%
+}
+
+.size4of7 {
+    width:57.14284%
+}
+
+.size5of7 {
+    width:71.42855%
+}
+.size6of7 {
+    width:85.71426%
+}
+
+.line-gutters>.unit, .line-gutters>.lastUnit {
+    padding-right: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.loadingAjax div.interstitialblock {
+    background-color: #f4f4f4!important;
+}
+.search-card.cardList {
+    margin-right: -16px;
+}
+.search-card.cardList>li {
+    width: 228px;
+    margin: 0 16px 24px 0;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+}
+.search-card.cardList>li.filler {
+    height: 239px;
+    background: #e6e6e6;
+}
+.search-card.cardList>li.unapproved {
+    border-width: 0;
+}
+.search-card.cardList>li.display-none {
+    display: none;
+}
+.search-card.cardList .group-info {
+    height: 92px;
+}
+.search-card.cardList .friends {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    background: #f9f9f9;
+    padding: 6px 0 0 12px;
+}
+.search-card.cardList .friends .friend-count {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.search-card.cardList .friends .inlineList {
+    margin-right: 2px;
+}
+.search-card.cardList .friends .inlineList li {
+    margin-right: 1px;
+}
+.search-card.cardList .friends .inlineList li a {
+    margin-bottom: 6px;
+}
+.name-card.cardList {
+    position: relative;
+}
+.name-card.cardList .group-info {
+    position: relative;
+    border-top: 1px solid #ddd;
+    height: auto;
+}
+.name-card.cardList .group-info h4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.name-card.cardList .nametag-photo {
+    width: 100%;
+    height: 172px;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    text-decoration: none;
+}
+.name-card.cardList .nametag-photo .nametag-photo-role {
+    margin: -8px 0 12px;
+}
+.name-card.cardList .nametag-photo .nametag-photo-role p {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.4);
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 2px 4px;
+    font-size: 9px;
+    line-height: 1em;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border-radius: 1px 1px 1px 1px;
+}
+.name-card.cardList .nametag-photo .nametag-photo-name h4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 12px;
+    font-size: 17px;
+}
+.name-card.cardList .nametag-photo .nametag-photo-name.nogradient {
+    background: 0;
+}
+.simple-card {
+    position: relative;
+}
+.simple-card .rainbow_icon {
+    display: none;
+    position: absolute;
+    text-indent: -10000px;
+    right: 0;
+    bottom: 0;
+    width: 0;
+}
+.simple-card .ignore-suggestion {
+    display: none;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65)));
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.65) 100%);
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.65) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.simple-card .ignore-suggestion span {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+}
+.simple-card:hover .rainbow_icon, .simple-card:hover .ignore-suggestion {
+    display: block;
+}
+.simple-card.xf-card-prompt {
+    background: #e6e6e6;
+    display: table-cell;
+    vertical-align: middle;
+}
+.simple-card.xf-card-prompt p {
+    margin: 0 auto 6px;
+    text-align: center;
+    color: #888;
+}
+.live-card.cardList {
+    margin-right: -16px;
+}
+.live-card.cardList .card-photo, .live-card.cardList .card-photo-none {
+    width: 100%;
+    height: 150px;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    display: block;
+}
+.live-card.cardList .card-header-link {
+    color: #333;
+    height: 38px;
+}
+.live-card.cardList .card-photo-none {
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    background-image: url("//img1.meetupstatic.com/img/6231067094987260705527/journey/simple/gray_meetup.png");
+    display: block;
+}
+
+
+
+
+.cardList>li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 12px;
+    margin: 0 12px 12px 0;
+    padding: 0;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    width: 223px;
+}
+
+.cardList {
+    list-style: none;
+    font-size: 0;
+}
+
+.nametag-photo {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    background-position: center 20%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background-color: #333;
+}
+.nametag-photo-name {
+    background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, rgba(22, 24, 27, 0)), color-stop(48px, rgba(22, 24, 27, 0.7)), color-stop(100%, rgba(22, 24, 27, 0.9)));
+    background: -webkit-linear-gradient(top, rgba(22, 24, 27, 0), rgba(22, 24, 27, 0.7) 48px, rgba(22, 24, 27, 0.9));
+    background: -moz-linear-gradient(top, rgba(22, 24, 27, 0), rgba(22, 24, 27, 0.7) 48px, rgba(22, 24, 27, 0.9));
+    background: -o-linear-gradient(top, rgba(22, 24, 27, 0), rgba(22, 24, 27, 0.7) 48px, rgba(22, 24, 27, 0.9));
+    background: -ms-linear-gradient(top, rgba(22, 24, 27, 0), rgba(22, 24, 27, 0.7) 48px, rgba(22, 24, 27, 0.9));
+    background: linear-gradient(top, rgba(22, 24, 27, 0), rgba(22, 24, 27, 0.7) 48px, rgba(22, 24, 27, 0.9));
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 18px;
+    display: block;
+    color: #fff;
+    padding: 54px 12px 0;
+    orphans: 2;
+    vertical-align: bottom;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nametag-photo-name h1, .nametag-photo-name h2, .nametag-photo-name h3, .nametag-photo-name h4, .nametag-photo-name h5, .nametag-photo-name h6 {
+    color: #fff;
+}
+.ie7 .nametag-photo-name, .ie8 .nametag-photo-name, .ie9 .nametag-photo-name {
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#00000000', EndColorStr='#80000000');
+}

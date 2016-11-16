@@ -1,0 +1,35 @@
+
+@media (min-width: 960px) and ( max-width:1199px ) {
+	.main-map{
+		width: 650px!important;
+	}
+}
+
+@media (min-width: 767px) and ( max-width:959px ) {
+	.main-map{
+		width: 500px!important;
+	}
+	#pac-input{
+		width:370px!important;
+	}
+	#mLocation{
+		top:55px!important;
+		left:50px!important;
+	}
+}
+
+@media( max-width:766px ) {
+	.main-map{
+		width: 490px!important;
+	}
+	#pac-input{
+		width:350px!important;
+	}
+	#top-header{
+		margin-top:40px!important;
+	}
+	#mLocation{
+		top:55px!important;
+		left:50px!important;
+	}
+}
